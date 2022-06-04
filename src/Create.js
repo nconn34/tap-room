@@ -6,6 +6,9 @@ const Create = () => {
   const [type, setType] = useState('');
   const [brewer, setBrewer] = useState('');
   const [abv, setAbv] = useState('');
+  const [pint, setPint] = useState('');
+  const [growler, setGrowler] = useState('');
+  const [six, setSix] = useState('');
   const [isPending, setIsPending] = useState(false);
   const history = useHistory();
 
@@ -15,12 +18,11 @@ const Create = () => {
 
     setIsPending(true);
 
-    fetch('http://localhost:8001/locations', {
+    fetch('http://localhost:3000/drinks', {
         method: 'POST',
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify(drink)
     }).then(()=>{
-        console.log('new beer option added')
         setIsPending(false)
         history.push('/')
     })
@@ -28,11 +30,10 @@ const Create = () => {
 
   return (
     <div className="create">
-      <h2>Add a New Beer/Cider/Kombucha</h2>
+      <h2>Add a New Beverage: </h2>
       <form onSubmit={handleSubmit}>
         <label>Name</label>
         <input 
-          type="text" 
           required 
           value={name}
           onChange={(e) => setName(e.target.value)}
