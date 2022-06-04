@@ -1,0 +1,14 @@
+{
+    "drinks": [
+      {
+        "name": "Prank Pilsner",
+        "type": "Pilsner",
+        "brewer": "Seymour Butts",
+        "abv": "4.3",
+        "pint": "$8.00",
+        "growler": "$12.00",
+        "six": "$15.00",
+        "id": 1
+      }
+    ]
+  }
