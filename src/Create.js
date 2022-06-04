@@ -11,14 +11,14 @@ const Create = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const menu = { name, type, brewer, abv, pint, growler, six };
+    const drink = { name, type, brewer, abv, pint, growler, six };
 
     setIsPending(true);
 
     fetch('http://localhost:8001/locations', {
         method: 'POST',
         headers: {"Content-Type": "application/json"},
-        body: JSON.stringify(menu)
+        body: JSON.stringify(drink)
     }).then(()=>{
         console.log('new beer option added')
         setIsPending(false)
@@ -74,8 +74,8 @@ const Create = () => {
           onChange={(e) => setSix(e.target.value)}
         ></textarea>
         
-        {!isPending &&<button>Add Beer</button>}
-        {isPending &&<button disabled>Adding blog...</button>}
+        {!isPending &&<button>Add Drink</button>}
+        {isPending &&<button disabled>Adding drink...</button>}
       </form>
     </div>
   );
