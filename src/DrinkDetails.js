@@ -6,7 +6,7 @@ const DrinkDetails = () => {
     const {data: drink, error, isPending} = useFetch('http://localhost:8001/drinks/' + id);
     const history = useHistory();
     const handleClick= () =>{
-        fetch('http://localhost:8001/menu/' + drink.id, {
+        fetch('http://localhost:8001/drinks/' + drink.id, {
             method: 'DELETE'
         }).then(() =>{
             history.push('/')
@@ -33,4 +33,4 @@ const DrinkDetails = () => {
 }
 
  
-export default LocationDetails;
+export default DrinkDetails;
