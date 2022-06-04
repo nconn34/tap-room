@@ -2,7 +2,7 @@ import DrinkList from './DrinkList';
 import useFetch from './useFetch';
 
 const Home = () => {
-const {data: drink, isPending, error } = useFetch('http://localhost:8001/menu');
+const {data: drink, isPending, error } = useFetch('http://localhost:3000/drinks');
 
     return (
         <div className="home">
