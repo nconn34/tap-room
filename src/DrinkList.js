@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 
-const  DrinkList = ({menu, name, type}) => {
+const  DrinkList = ({drink, name, type}) => {
     
 
     return ( 
-        <div className="menu-list">
+        <div className="drink-list">
             <h2>{name}</h2>
-            {menu.map((drink) => (
+            {drink.map((drink) => (
             <div className="drink-preview" key={drink.id}>
-                <Link to={`/menu/${drink.id}`}>
-                <h2>{drink.type}</h2>
+                <Link to={`/drinks/${drink.id}`}>
+                <h2>{drink.name}</h2>
                 </Link>
             </div>
            ))}
