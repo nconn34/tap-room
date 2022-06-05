@@ -1,4 +1,51 @@
-##Component Diagram
+# Mo's Tap Room
+
+#### By **Nathan Conn**
+
+#### An application to help Mo keep track of drinks, add new drinks, and track sales. 
+
+
+## Technologies Used
+
+* HTML
+* CSS & Bootstrap
+* JavaScript & React
+* Node.js
+* JSON Server
+
+## Description
+
+This is a simple React application to help a user see what beverages are available at Mo's. The list of drinks can be edited and drinks can be added or taken off, and will display sale prices as well.  Finally, the app will be able to track how much of each beverage has sold in a night.
+
+## Setup/Installation Requirements
+
+* Clone repository.
+* Open code in your favorite text editor. I use VS Code.
+* Run "npm install." in your terminal.
+* Followed by "run npm build."
+* [Find a free API here at this link](https://pokeapi.co)
+* Save your API in a ".env file" for safe keeps. Then add this to your .gitignore file.
+* Add "API_KEY=Your key here" to the .env file. 
+* Make sure you test your API calls in Postman before adding them to your code.
+* Check documentation on your API key to see endpoints and more useful information about your API.
+* Run "npm run start" to view in browser.
+
+## Known Bugs
+
+* _Any known issues_
+* _should go here_
+
+## Contact Me
+
+_Let me know if you run into any issues or have questions, ideas, or concerns:_
+_britwallace888@gmail.com or nconn34@gmail.com_ 
+
+## License
+
+Copyright (c) _January/9/2022_ _Brit Wallace, Nathan Conn, Ryan Rendon, and Karl Starkweather._
+
+
+## Component Diagram
 ![Image Name](Tap-Room.jpg)
 
 # Getting Started with Create React App
