@@ -1,4 +1,46 @@
+# Mo's Tap Room
 
+#### By **Nathan Conn**
+
+#### An application to help Mo keep track of drinks, add new drinks, and track sales. 
+
+
+## Technologies Used
+
+* HTML
+* CSS & Bootstrap
+* JavaScript & React
+* Node.js
+* JSON Server
+
+## Description
+
+This is a simple React application to help a user see what beverages are available at Mo's. The list of drinks can be edited and drinks can be added or taken off, and will display sale prices as well.  Finally, the app will be able to track how much of each beverage has sold in a night.
+
+## Setup/Installation Requirements
+
+* Clone repository.
+* Run "npm install." in your terminal.
+* In the command line, run "npx json-server --watch data/db.json". This will establish a localhost that will run the JSON server. If you wanted to run the server on a different port, you can include "--port ####" to specify which port but then you would need to change the fetch URL to match the same port number.
+* Followed by "run npm build."
+* Run "npm run start" to view in browser. Since the JSON server will be on port 3000, type "Y" when asked to launch on a different port (likely will be 3001).
+
+## Known Bugs
+
+* Currently the buttons I tried to include to decrement the amount of an individual drink left will not work. 
+
+## Contact Me
+
+Let me know if you run into any issues or have questions, ideas, or concerns:
+nconn34@gmail.com
+
+## License
+
+Copyright (c) Nathan Conn 6/5/2022
+
+
+## Component Diagram
+![Tap-Room Diagram](https://user-images.githubusercontent.com/92281134/172069033-6ff7a063-e7d1-4e85-88dd-fb84a4b2d4b8.jpg)
 
 # Getting Started with Create React App
 
@@ -70,4 +112,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
