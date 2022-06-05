@@ -1,4 +1,5 @@
-Making edits so I can push!
+##Component Diagram
+![Image Name](Tap-Room.jpg)
 
 # Getting Started with Create React App
 
