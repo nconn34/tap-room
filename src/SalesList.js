@@ -4,7 +4,7 @@ import Sales from "./Sales";
 
 const mainSalesList = [
     {
-        ounces: "128"
+        ounces: "1984"
     }
   ];
 
