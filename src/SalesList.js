@@ -14,7 +14,7 @@ function SalesList(){
       <hr/>
       {mainSalesList.map((amount, index) =>
       <Sales
-        remaining={amount.ounces}
+        remaining= {amount.ounces}
         key={index}/>
         )}
     </React.Fragment>
