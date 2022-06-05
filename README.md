@@ -1,5 +1,4 @@
-##Component Diagram
-![Tap-Room Diagram](https://user-images.githubusercontent.com/92281134/172069033-6ff7a063-e7d1-4e85-88dd-fb84a4b2d4b8.jpg)
+
 
 # Getting Started with Create React App
 
