@@ -1,5 +1,5 @@
 ##Component Diagram
-![Image Name](Tap-Room.jpg)
+![Tap-Room Diagram](https://user-images.githubusercontent.com/92281134/172069033-6ff7a063-e7d1-4e85-88dd-fb84a4b2d4b8.jpg)
 
 # Getting Started with Create React App
 
@@ -71,3 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
