@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const  DrinkList = ({drink, name, type}) => {
+const  DrinkList = ({drink, name}) => {
     
 
     return ( 
