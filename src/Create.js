@@ -8,13 +8,12 @@ const Create = () => {
   const [abv, setAbv] = useState('');
   const [pint, setPint] = useState('');
   const [growler, setGrowler] = useState('');
-  const [six, setSix] = useState('');
   const [isPending, setIsPending] = useState(false);
   const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const drink = { name, type, brewer, abv, pint, growler, six };
+    const drink = { name, type, brewer, abv, pint, growler,};
 
     setIsPending(true);
 
@@ -68,13 +67,6 @@ const Create = () => {
           value={growler}
           onChange={(e) => setGrowler(e.target.value)}
         ></textarea>
-        <label>Price per Six-Pack:</label>
-        <textarea
-          required
-          value={six}
-          onChange={(e) => setSix(e.target.value)}
-        ></textarea>
-        
         {!isPending &&<button>Add Drink</button>}
         {isPending &&<button disabled>Adding drink...</button>}
       </form>
