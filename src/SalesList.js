@@ -1,29 +1,24 @@
-import React from "react";
-import Sales from "./Sales";
+// import React from "react";
+// import Sales from "./Sales";
 
 
-const mainSalesList = [
-    {
-        ounces: "1984"
-    }
-  ];
+// const mainSalesList = [
+//     {
+//         ounces: "1984"
+//     }
+//   ];
 
-function SalesList(){
-  return (
-    <React.Fragment>
-      <hr/>
-      {mainSalesList.map((amount, index) =>
-      <Sales
-        remaining= {amount.ounces}
-        key={index}/>
-        )}
-    </React.Fragment>
-  );
-}
+// function SalesList(){
+//   return (
+//     <React.Fragment>
+//       <hr/>
+//       {mainSalesList.map((amount, index) =>
+//       <Sales
+//         remaining= {amount.ounces}
+//         key={index}/>
+//         )}
+//     </React.Fragment>
+//   );
+// }
 
-export default SalesList;
-
-//If ID has more than one pint left then do the following
-//Set variable keg
-
-//const keg = { ...element, pints: element.pints - 1 };
+// export default SalesList;
