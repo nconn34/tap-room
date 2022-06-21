@@ -22,3 +22,8 @@ function SalesList(){
 }
 
 export default SalesList;
+
+//If ID has more than one pint left then do the following
+//Set variable keg
+
+//const keg = { ...element, pints: element.pints - 1 };

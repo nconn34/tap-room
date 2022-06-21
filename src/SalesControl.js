@@ -82,3 +82,5 @@ class SalesControl extends React.Component {
 }
 
 export default SalesControl;
+
+//Pass in an ID
