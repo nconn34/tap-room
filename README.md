@@ -9,7 +9,7 @@
 
 * HTML
 * CSS & Bootstrap
-* JavaScript & React
+* React
 * Node.js
 * JSON Server
 
